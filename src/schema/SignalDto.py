@@ -8,7 +8,7 @@ from enum.Contract import Contract
 class SignalDto(BaseModel):
 
     ticker: str
-    amount: int
+    volume: int
     action: Action
     contract: Contract
     time: datetime

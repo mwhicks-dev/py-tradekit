@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from schema.SignalDto import SignalDto
+from pytrade.schema.SignalDto import SignalDto
 
 class IModel(ABC):
 

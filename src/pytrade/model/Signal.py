@@ -1,9 +1,9 @@
 from datetime import datetime
 
-from enum.Action import Action
-from enum.Contract import Contract
+from pytrade.enum.Action import Action
+from pytrade.enum.Contract import Contract
 
-from schema.SignalDto import SignalDto
+from pytrade.schema.SignalDto import SignalDto
 
 class Signal:
 

@@ -2,8 +2,7 @@ from datetime import datetime
 
 from pydantic import BaseModel
 
-from pytrade.enum.Action import Action
-from pytrade.enum.Contract import Contract
+from pytrade.enum import Action, Contract
 
 class SignalDto(BaseModel):
 

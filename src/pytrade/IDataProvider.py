@@ -1,8 +1,6 @@
 from abc import ABC, abstractmethod
 
-from pytrade.schema.ValueDto import ValueDto
-from pytrade.schema.HistoricalQuery import HistoricalQuery
-from pytrade.schema.HistoricalDataDto import HistoricalDataDto
+from pytrade.schema import HistoricalQuery, HistoricalDataDto, ValueDto
 
 class IDataProvider(ABC):
 

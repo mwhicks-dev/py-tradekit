@@ -1,10 +1,9 @@
 from abc import ABC, abstractmethod
 from datetime import datetime
 
-from pytrade.model.Signal import Signal
+from pytrade.model import Signal
 
-from pytrade.schema.SignalDto import SignalDto
-from pytrade.schema.TradeDto import TradeDto
+from pytrade.schema import SignalDto, TradeDto
 
 class Broker(ABC):
 

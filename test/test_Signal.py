@@ -1,9 +1,9 @@
 from datetime import datetime, timedelta
 
-from src.enum.Action import Action
-from src.enum.Contract import Contract
-from src.model.Signal import Signal
-from src.schema.SignalDto import SignalDto
+from pytrade.enum.Action import Action
+from pytrade.enum.Contract import Contract
+from pytrade.model.Signal import Signal
+from pytrade.schema.SignalDto import SignalDto
 
 def test_signal_lt():
     s1 = Signal(SignalDto("AAPL", 10, Action.Buy, Contract.Call, datetime.now()))
